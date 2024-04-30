@@ -14,6 +14,7 @@ window.axios.defaults.headers.common['Content-Type'] = 'aplication/json'
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'
 window.axios.defaults.withCredentials = true
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
